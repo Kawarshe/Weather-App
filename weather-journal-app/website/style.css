@@ -1,0 +1,150 @@
+
+
+@media only screen and (max-width: 470px){
+    h1 {
+    font-weight:lighter;
+    }
+
+    .input-field{
+    width: 150%;
+    }
+    .fields{
+    width: 150px;
+    }
+
+    }
+
+    .con{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    }
+
+    body{
+    background-image: url(images/main2.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    font-family: Sansita Swashed;
+    text-align: center;
+    }
+    .photo{
+    background-position:center;
+    background-size:cover;
+    }
+
+    h1{
+    font-size: 60px;
+    }
+    h4{
+    font-size: 22px;
+    }
+
+    .forms-row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+    }
+    .labels{
+    display: flex;
+    flex-wrap:nowrap;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 22px;
+
+    }
+    .fields{
+    display: inline-flex;
+    align-content: center;
+    width: 280px;
+    }
+    .input-field{
+    height: 30px;
+    width: 280px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+
+
+    }
+
+
+
+    .button {
+    font-size: 1em;
+    background-color: #051c2e;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 150px;
+    }
+
+    #entryHolder{
+    display: none;
+    }
+
+    .clouds {
+    background-image: url(images/clouds.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .rain{
+    background-image: url(images/Rain.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .thunder {
+    background-image: url(images/Thunderstorm.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .clear {
+    background-image: url(images/Clear.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .drizzle {
+    background-image: url(images/drizzle.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .snow {
+    background-image: url(images/snow.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+

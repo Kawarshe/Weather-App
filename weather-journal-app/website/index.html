@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Journal</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sansita Swashed">
+        <link rel='stylesheet' href='style.css'>
+        
+    </head>
+    <body>
+
+        <div class="con">
+    <div class="main">
+    <h1>Weather Journal</h1>
+
+        <h4>Our lives can be effects by the weather</h4>
+    </div>
+            <div class="forms-row">
+            <div class="labels">
+            <label for="zip">Enter Zipcode</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="zip" type="text" placeholder="Enter zip code here">
+            </div>
+        </div>
+
+        <div class="forms-row">
+            <div class="labels">
+            <label for="describe">Please describe <br>your feelings</label>
+            </div>    
+            <div class="fields">
+            <textarea class="input-field" id="feelings" cols="20" rows="10" placeholder="Enter your describe here ..."
+            style="height: 100px; "></textarea>
+            </div>
+        </div>
+        <div>
+            <button class="button" id="generate">Check</button>
+        </div>
+            <div style = 'display: block'>
+        <div id = "entryHolder">
+            <div class="forms-row">
+            <div class="labels">
+            <label>City</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="city" type="text" readonly >
+            </div>
+        </div>
+
+            <div class="forms-row">
+            <div class="labels">
+            <label for="name">Date</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="date" type="text" readonly >
+            </div>
+        </div>
+
+            <div class="forms-row">
+            <div class="labels">
+            <label for="name">Temperature</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="temp" type="text" readonly >
+            </div>
+        </div>
+
+            <div class="forms-row">
+            <div class="labels">
+            <label for="name">Weather</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="weather" type="text" readonly >
+            </div>
+        </div>
+
+            <div class="forms-row">
+            <div class="labels">
+            <label for="name">Feelings</label>
+            </div>
+            <div class="fields">
+            <input class="input-field" id="content" type="text" readonly >
+            </div>
+        </div> 
+
+    </div>
+                </div>
+</div>  
+        
+<script src="app.js" type="text/javascript"></script>
+    </body>
+</html>
